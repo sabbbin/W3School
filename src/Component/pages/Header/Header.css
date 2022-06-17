@@ -2,17 +2,20 @@
 body{
     font-size: 15px;
     padding:20px;
+    position: relative;
 }
 
 
 .navbar{
     height: 70px;
     width: 100vw;
-    background-color: red;
     
+    background-color: white;
     padding: 0 1rem;
     display: flex;
-    
+    top:0px;
+    left:0px;
+    position: fixed;
 }
 
 .navbar_des{
@@ -23,9 +26,10 @@ body{
     align-items: center;
 }
 .navbar_left {
-    background-color: gray;
+  
     align-items: center;
 }
+
 
 .navbar img{
     height: 50px;
@@ -51,12 +55,15 @@ body{
 
 }
 .navbar_right{
-    background-color: aqua;
+   
     display: flex;
     width: 50%;
     justify-content:end;
 }
 
+a{
+    cursor: pointer;
+}
 
 
 .navbar_right  a{
