@@ -1,0 +1,138 @@
+
+body{
+    font-size: 15px;
+    padding:20px;
+}
+
+
+.navbar{
+    height: 70px;
+    width: 100vw;
+    background-color: red;
+    
+    padding: 0 1rem;
+    display: flex;
+    
+}
+
+.navbar_des{
+    width: 100%;
+    padding-right: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.navbar_left {
+    background-color: gray;
+    align-items: center;
+}
+
+.navbar img{
+    height: 50px;
+    width: 50px;
+   padding-top: 7px;
+}
+
+.navbar .navbar_left a{
+   
+    cursor: pointer;
+    border: 0;
+    /* background-color: transparent; */
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+
+
+.navbar_left a{
+    padding:0 10px;
+    margin: 0 10px;
+
+}
+.navbar_right{
+    background-color: aqua;
+    display: flex;
+    width: 50%;
+    justify-content:end;
+}
+
+
+
+.navbar_right  a{
+    margin: 20px;
+}
+
+.navbar_right a i{
+    margin-top: 5px;
+}
+.navbar_right .div_web{
+    margin-right: 10px;
+}
+
+.navbar_right .div_web a{
+    margin-right: 10px;
+}
+
+.btn{
+    height: 30px;
+    font-size: 0.98rem;
+    border-radius: 10px;
+    border:0;
+    padding:0 17px;
+}
+
+.btn_website{
+    background-color: green;
+}
+
+.btn_login{
+    background-color: red;
+}
+
+.badge{
+    background-color: black;
+    color:white;
+    padding:0 5px;
+    border-radius: 10px;
+  
+    margin-left: 7px;
+}
+
+
+.menu{
+    display: none;
+}
+
+
+    @media only screen and (max-width: 1285px){ 
+    .badge{ 
+        display: none;
+    }}
+
+    @media only screen and (max-width: 1285px){ 
+        .navbar_left .vedio{ 
+            display: none;
+        }
+     
+
+}
+@media only screen and (max-width: 1170px){ 
+    .pro,.paid_counter{ 
+        display: none;
+    }
+ 
+
+}
+@media only screen and (max-width: 900px){ 
+   
+
+    .dark_switch, .btn_website
+    ,.link{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+
+}
